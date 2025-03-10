@@ -1,0 +1,24 @@
+.custom-action-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 4px;
+  margin: 8px 0;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.custom-action-button:hover {
+  background-color: #1557b0;
+}
+
+.calendar-action-button {
+  background-color: #34a853;
+}
+
+.calendar-action-button:hover {
+  background-color: #2d8544;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7O0FBV0E7Ozs7QUFJQTs7OztBQUlBIiwic291cmNlcyI6WyJzcmMvc3R5bGVzL2NvbnRlbnQuY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIi5jdXN0b20tYWN0aW9uLWJ1dHRvbiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMxYTczZTg7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgYm9yZGVyOiBub25lO1xuICBwYWRkaW5nOiA4cHggMTZweDtcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIG1hcmdpbjogOHB4IDA7XG4gIGZvbnQtc2l6ZTogMTRweDtcbn1cblxuLmN1c3RvbS1hY3Rpb24tYnV0dG9uOmhvdmVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzE1NTdiMDtcbn1cblxuLmNhbGVuZGFyLWFjdGlvbi1idXR0b24ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzRhODUzO1xufVxuXG4uY2FsZW5kYXItYWN0aW9uLWJ1dHRvbjpob3ZlciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMyZDg1NDQ7XG59ICJdLCJuYW1lcyI6W10sInZlcnNpb24iOjMsImZpbGUiOiJjb250ZW50LjNkY2Y1OGYwLmNzcy5tYXAifQ== */

@@ -1,0 +1,46 @@
+{
+  "name": "calendar-helper",
+  "displayName": "Calendar helper",
+  "version": "0.0.1",
+  "description": "A helper extension",
+  "author": "Matan Mizrahi",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "googleapis": "^139.0.0",
+    "plasmo": "0.90.3",
+    "process": "^0.11.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@types/chrome": "0.0.258",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "prettier": "3.2.4",
+    "typescript": "5.3.3"
+  },
+  "key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv++b5MBzh1YmZhPZUAqZ\nMLdogBt/pDUqnyVxd7gVBHH3dHR7vlvNyur1fnmQsPpSR/Cl6heEi+OdxwY8offE\ncSf/vvWqTumzXa7II4aF8FpK8j48oDIRlGmckTWx6udXROVrwJe6WV+/3y5yCV8/\nr9ONfCoRIS1XsLIngYMF4/97xUS0o9Qbx4Fqm7S6U7TGSLJ6dAP3aRq0U+zRtz9b\nF9WAYZyYh1dz99eLUmYxFdKBjKntwMO00cTBBdRKFKHp+FpRxFZRscPFhNVHPjKt\nbkdWoTgmgTC66uke2s74tGQjqrofO9XracGlVS0+q1XnSuK9PPGenCJm0BWV4Ncm\nTQIDAQAB\n-----END PUBLIC KEY-----",
+  "manifest": {
+    "host_permissions": [
+      "https://*/*",
+      "https://mail.google.com/*"
+    ],
+    "permissions": [
+      "identity",
+      "activeTab",
+      "storage"
+    ],
+    "oauth2": {
+      "client_id": "",
+      "scopes": [
+        "https://www.googleapis.com/auth/calendar.events"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.custom-action-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.custom-action-button:hover {
+  background-color: #1557b0;
+}
+
+.calendar-action-button {
+  background-color: #34a853;
+}
+
+.calendar-action-button:hover {
+  background-color: #2d8544;
+} 
